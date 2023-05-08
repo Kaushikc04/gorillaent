@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gorilla Enterprise</title>
+  <link rel="icon" type="image/X-icon" href="image/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <body>
+  <nav>
+    <label class="name">Gorilla Enterprise</label>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="Brands.html">Brands</a></li>
+      <li><a href="ourstory.html">Our Story</a></li>
+      <li><a href="Contactus.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- 
+  code of slider starts -->
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="image/12.jpg" >
+      <!-- <div class="text">Caption Text</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      
+      <img src="image/12.jpg" >
+      <!-- <div class="text">Caption Two</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="image/12.jpg">
+      <!-- <div class="text">Caption Three</div> -->
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+
+<!--       
+      code of slider ends -->
+
+
+
+
+      <!-- FOOTER SECTION STARTS-->
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <footer>
+
+       <div class="footer">
+
+            <div class="col-1">
+           <ul>
+            <h3>COMPANY INFO</h3> 
+               <li><a href="#">About</a></li>
+               <li><a href="#">Fresh Taste</a></li>
+               <li><a href="#">Investor Relations</a></li>
+           </ul> 
+        </div>
+
+        <div class="col-2">
+           <ul>
+               <h3>CONTACT</h3> 
+               <li><a href="#">FAQ's Supports</a></li>
+               <li><a href="#">Write to us:</a></li>
+               <li><a href="#">Careers</a></li>
+                <li><a href="#">Consumer Care</a></li>
+               <li><a href="#">Supply chain Queries</a></li>
+               <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Corporate Communication</a></li>
+        </ul>
+
+        </div>
+
+       <div class="col-4">
+             <ul>
+                <h3>LEGAL</h3> 
+                   <li><a href="#">Terms & Conditions</a></li>
+                   <li><a href="#">Privacy Pollcy</a></li>
+               <li><a href="#">Promotional T & C</a></li>
+         </ul>
+       </div>
+
+         <div class="col-3">
+           <ul>
+            <h3>COMPANY CARES</h3> 
+               <li><a href="#">Nutrition Information</a></li>
+               <li><a href="#">Creating Brighter Futures</a></li>
+               <li><a href="#">Trust & Taste</a></li>
+            <li><a href="#">COVID-19 Safety</a></li>
+        </ul>
+
+       
+         </div>
+        
+           
+       </div>
+       
+          
+<div class="bottom-last">
+    <hr class="hr" size="2">
+
+           <h4 class="h4" >  &copy; TM & 2023 GORILLA ENTERPRISE LLC. ALL RIGHT RESERVED.</h4>
+
+             <img class="footer-logo" src="image/logo.png" alt="logo">
+
+             <!-- <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-instagram"></a>
+             <a href="#" class="fa fa-twitter"></a>
+       <a href="#" class="fa fa-linkedin"></a> -->
+</div>
+      
+
+    </footer>
+    
+     </head>
+    
+</body>
+</html>
