@@ -1,145 +1,141 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Story</title>
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-      /* Add some basic styling to the page */
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-      }
-      .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-      }
-      .logo {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        background-color: #ccc;
-      }
-      .about-us {
-        max-width: 600px;
-        padding: 20px;
-        font-size: 1.2em;
-        line-height: 1.5em;
-        text-align: justify;
-    
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <span class="logo">
-        <img class="logo" src="image/logo.png" alt="Logo of Gorilla Enterprise">
-      </span>
-
-      <span class="about-us">
-        <center><h1>About Us</h1></center>
-        <p>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus dolor at massa bibendum malesuada. Donec ut purus vel mauris volutpat vehicula. Praesent ullamcorper risus sit amet orci fermentum, sed dignissim nibh bibendum. Quisque sit amet dui in velit dignissim pulvinar. Nam vel tincidunt leo. Sed nec odio vitae tortor pulvinar auctor non non velit. Aenean nec malesuada augue.</p>
-        <p>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;Phasellus vel erat fermentum, rhoncus nulla vitae, imperdiet orci. Nulla vel pulvinar arcu. Etiam venenatis nisi ac turpis bibendum, vel faucibus leo sollicitudin. Fusce vel ipsum eget velit suscipit fermentum a eget augue. Nullam nec orci at enim sagittis lacinia vel vel velit. Duis vitae gravida sem, in ultricies elit.</p>
-        <p>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;Donec at orci vel mauris blandit interdum eu in nunc. Integer fringilla ipsum quis nisi tincidunt, vel bibendum tellus scelerisque. Sed tincidunt tellus euismod, pretium nisi in, tempor sapien. Proin ultricies nisl vitae orci commodo venenatis. Fusce vel libero arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-      </span>
-    </div>
-  
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Story</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story</title>
+  <link rel="stylesheet" href="ourstory.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+  <body>
+    <nav class="nav1">
+      <label class="name1">Our Story</label>
+    </nav>
+    <!-- <hr> -->
+<style>
+    .container::after {
+  background: url('https://www.infojiniconsulting.com/wp-content/uploads/2020/03/women-empowerment-.jpg') no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 240px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
 
-    <style>
-      /* Add some basic styling to the page */
-      #body {
-        background-image: url("https://www.infojiniconsulting.com/wp-content/uploads/2020/03/women-empowerment-.jpg");
-        background-repeat: no-repeat;
-        background-position: center bottom;
-      }
-      /* .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-      } */
-      .logo {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        border: 2px solid;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 15px;
-      }
-      /* .about-us {
-        max-width: 600px;
-        padding: 20px;
-        font-size: 1.2em;
-        line-height: 1.5em;
-        text-align: justify;
-    
-      } */
-      #ourstory{
-        font-size: 40px;
-        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-        font-style: bold;
-        padding-left: 30px;
-        margin-top: 20px;
-      }
-      #companyName{
-        font-size: 135px;
-        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-        font-style: italic;
-      }
-      #header{
-        background-color: orangered;
-        margin: 10px;
-      }
-      .textBox{
-        height: 130px;
-        width: 600px;
-        margin-left: 30px;
-        margin-right: 300px;
-        font-size: 20px;
-        font-style: bold;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      }
-      #slidshow{
-        width: 400px;
-        height: 400px;
-        border-radius: 20px;
-        border: 2px solid;
-        /* background-position: right bottom; */
-      }
-    </style>
-  </head>
-  <body id="body">
-    <!-- <div class="container">
-      <span class="logo"> -->
-        <div id="header">
-          <span>
-            <img class="logo" src="https://img.freepik.com/premium-photo/gorilla-logo-vector-illustration_780593-2642.jpg?w=740" alt="Logo of Gorilla Enterprise">
-          </span>
-          <span id="companyName">Gorilla Enterprise</span>
+.hr1 {
+  /* position: relative; */
+  /* top: 100%; */
+  /* margin: 0 auto; */
+  /* width: 50%; */
+  margin-top: 20rem;
+  margin-bottom: -1rem;
+}
+    .text {
+      height: 420px;
+      width: 85%;
+      display: inline-block;
+      margin: 10px 85px;
+      padding: 2px 50px;
+      font-size: 130%;
+      color: black;
+   
+    }
+
+  </style>
+    <br>
+    <div class="text">
+      <div class="container">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, optio totam! Tempora omnis necessitatibus
+        explicabo eveniet, hic temporibus alias sed sunt doloribus quos aliquam aperiam unde earum architecto neque, ea
+        dolores, perferendis quam odio quo possimus qui ipsa repudiandae eligendi? Fuga doloribus laborum sapiente
+        excepturi enim veritatis veniam, distinctio suscipit?</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, optio totam! Tempora omnis necessitatibus
+        explicabo eveniet, hic temporibus alias sed sunt doloribus quos aliquam aperiam unde earum architecto neque, ea
+        dolores, perferendis quam odio quo possimus qui ipsa repudiandae eligendi? Fuga doloribus laborum sapiente
+        excepturi enim veritatis veniam, distinctio suscipit?</p>
+      
+    </div>
+  </div>
+
+
+   <!-- FOOTER SECTION STARTS-->
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+ 
+   <hr class="hr1">
+   <footer>
+      <div class="story_footer">
+
+           <div class="column-1">
+          <ul>
+           <h3>COMPANY INFO</h3> 
+              <li><a href="#">About</a></li>
+              <li><a href="#">Fresh Taste</a></li>
+              <li><a href="#">Investor Relations</a></li>
+          </ul> 
+       </div>
+
+       <div class="column-2">
+          <ul>
+              <h3>CONTACT</h3> 
+              <li><a href="#">FAQ's Supports</a></li>
+              <li><a href="#">Write to us:</a></li>
+              <li><a href="#">Careers</a></li>
+               <li><a href="#">Consumer Care</a></li>
+              <li><a href="#">Supply chain Queries</a></li>
+              <li><a href="#">Investor Relations</a></li>
+           <li><a href="#">Corporate Communication</a></li>
+       </ul>
+
+       </div>
+
+      <div class="column-4">
+            <ul>
+               <h3>LEGAL</h3> 
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Pollcy</a></li>
+              <li><a href="#">Promotional T & C</a></li>
+        </ul>
+      </div>
+
+        <div class="column-3">
+          <ul>
+           <h3>COMPANY CARES</h3> 
+              <li><a href="#">Nutrition Information</a></li>
+              <li><a href="#">Creating Brighter Futures</a></li>
+              <li><a href="#">Trust & Taste</a></li>
+           <li><a href="#">COVID-19 Safety</a></li>
+       </ul>
+
+      
         </div>
-        <h3 id="ourstory">Our Story:</h3>
+       
+          
+      </div>
+      
+         
+<div class="bottom-last">
+   <hr class="hr" size="2">
 
-          <p class="textBox">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore voluptas. Accusamus deleniti beatae voluptates vitae vel magni dignissimos amet excepturi, quam doloremque itaque cum totam facere illum! Voluptate, sunt?</p>
-          <p class="textBox" >Commodi sint nemo ex. Fugit, odio. Explicabo quis, aliquid dolorum assumenda vitae voluptates nobis deleniti minima voluptatibus enim fuga commodi necessitatibus sequi, dolor unde? Omnis, commodi a. Facilis, dolor ipsa?</p>
+          <h4 class="h4" >  &copy; TM & 2023 GORILLA ENTERPRISE LLC. ALL RIGHT RESERVED.</h4>
 
-          <img id="slidshow" src="https://thepolicytimes.com/wp-content/uploads/2019/01/women-empowerment-2.jpg" alt="Logo of Gorilla Enterprise">
+            <img class="footer-logo" src="image/logo.png" alt="logo">
+
+            <!-- <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a> -->
+</div>
+     
+
+   </footer>
+   
+    </head>
+   
 </body>
 </html>
